@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单</title>
+    <style type="text/css">
+        table {
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <form name="myform" method="POST" action="">
+        <table>
+            <tr>
+                <td>昵称：<input type="text" value="请输入昵称" /></td>
+            </tr>
+            <tr>
+                <td>密码：<input type="password" /></td>
+            </tr>
+            <tr>
+                <td>邮箱：<input type="text" value="请输入邮箱" />
+                    <select name="邮箱" id="you">
+                        <option value="">qq.com</option>
+                        <option value="">163.com</option>
+                        <option value="">mail.com</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> 性别：<input type="radio" name="性别" value="男" checked />男
+                    <input type="radio" name="性别" value="女" />
+                </td>
+            </tr>
+            <tr>
+                <td> 爱好：<input type="checkbox" name="爱好" value="旅游" checked />旅游
+                    <input type="checkbox" name="爱好" value="摄影" />摄影
+                    <input type="checkbox" name="爱好" value="运动" />运动
+                </td>
+            </tr>
+            <tr>
+                <td> 个人简介：</td>
+            </tr>
+            <tr>
+                <td><textarea name="个人简介" id="ge" cols="30" rows="10">请介绍一下自己</textarea>
+                    上传个人照片：</td>
+            </tr>
+
+            <tr>
+                <td> <input type="file" /></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="立即注册"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
